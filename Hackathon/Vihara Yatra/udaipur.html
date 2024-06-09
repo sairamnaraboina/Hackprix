@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vihara Yatra</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="mumbai.css">
+
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+<!--  
+    <link rel="stylesheet" href="./assets/css/style.css">
+   -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+</style>
+<style>
+  body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+  }
+  .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
+      background-color: #fff;
+      border-bottom: 1px solid #ddd;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+     
+  }
+  .navbar .nav-links {
+      display: flex;
+      align-items: center;
+      margin-left: 0px;
+     
+  }
+  .navbar .nav-links a {
+      text-decoration: none;
+      color: #333;
+      margin: 0 4px;
+      font-size: 15px;
+      font-weight: 500;
+      margin-right: 20px;
+  }
+  .navbar .nav-links a:hover {
+      color: #007bff;
+  }
+  .social-icons {
+      display: flex;
+      align-items: center;
+      margin-left: 100px;
+      
+  }
+  .social-icons a {
+      display: inline-block;
+      margin-left: 20px;
+      padding: 18px;
+      width: 20px;
+      height: 20px;
+      margin: 0 5px;
+      border-radius: 50%;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #333;
+      text-decoration: none;
+  }
+  .social-icons a:hover {
+      background-color: #f1f1f1;
+  }
+  .login-btn {
+      background-color: white;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 20px;
+      font-size: 16px;
+      cursor: pointer;
+      text-decoration: none;
+  }
+  .content {
+      margin-top: 60px; /* Adjust this value based on the height of your navbar */
+      padding: 20px;
+  }
+ 
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <div class="social-icons" style="margin-left:40px;">
+      <a href="#"><img src="https://img.icons8.com/ios-filled/50/000000/facebook-new.png" alt="Facebook" style="width: 20px; height: 17px;"></a>
+      <a href="#"><img src="https://img.icons8.com/ios-filled/50/000000/twitter.png" alt="Twitter" style="width: 20px; height: 17px;"></a>
+      <a href="#"><img src="https://img.icons8.com/ios-filled/50/000000/youtube-play.png" alt="YouTube" style="width: 20px; height: 17px;"></a>
+  </div>
+  <div class="nav-links">
+      <a href="index.html">HOME</a>
+      <a href="#">ABOUT US</a>
+      <a href="index.html#package">DESTINATIONS</a>
+      
+      <a href="#">TRAVEL GUIDES</a>
+      <a href="contact.html">CONTACT US</a>
+  </div>
+  <a href="#" class="login-btn" style="color:white;">Login</a>
+</div>
+</head>
+<body class="w3-light-grey">
+
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1400px">
+
+
+<!-- Header -->
+<header class="w3-container w3-center w3-padding-32"> 
+    <h1 class="main-head"><b>Udaipur</b></h1>
+    <p></p>
+  </header>
+  
+  <!-- Grid -->
+  <div class="w3-row">
+  
+  <!-- Blog entries -->
+  <div class="w3-col l8 s12">
+    <!-- Blog entry -->
+    <div class="w3-card-4 w3-margin w3-white">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Udaipur_City_Palace.jpg/1200px-Udaipur_City_Palace.jpg" alt="Nature" style="width:100%">
+      <div class="w3-container">
+        <h3><b>Description</b></h3>
+      </div>
+  
+      <div class="w3-container">
+        <p>
+          Udaipur is a city in the north-western Indian state of Rajasthan. It serves as the administrative headquarters of Udaipur district. It is the historic capital of the kingdom of Mewar in the former Rajputana Agency.
+  
+  </p>
+        
+      </div>
+    </div>
+    <hr>
+  
+    <!-- Blog entry -->
+    <div class="w3-card-4 w3-margin w3-white">
+    <img src="https://assets.vogue.in/photos/5e0ee4587c02da00080391fd/master/w_1600%2Cc_limit/Jagdish-Shri-Restaurant.jpg" alt="" style="width:100%">
+      <div class="w3-container">
+        <h3><b>Udaipur: The Majestic Crown Jewel of Rajasthan, Where Royalty and Romance Reign Supreme.</b></h3>
+      </div>
+  
+      <div class="w3-container">
+        <p>
+          <h2>Vegetables and Vegetarian Dishes</h2>
+          <ul>
+              <li><strong>Dal Baati Churma:</strong> A quintessential Rajasthani dish featuring baked wheat balls (baati) served with a lentil curry (dal) and sweetened crushed wheat (churma).</li>
+              <li><strong>Gatte ki Sabzi:</strong> Gram flour (besan) dumplings cooked in a spicy yogurt-based curry.</li>
+              <li><strong>Kachori:</strong> Deep-fried pastries filled with spiced lentils or onions, often served with chutneys.</li>
+              <li><strong>Aloo Pyaaz Sabzi:</strong> Potatoes and onions cooked in a spicy tomato gravy.</li>
+              <li><strong>Ker Sangri:</strong> A traditional desert bean and berry stir-fry, seasoned with spices.</li>
+          </ul>
+      
+          <h2>Meat and Non-Vegetarian Dishes</h2>
+          <ul>
+              <li><strong>Laal Maas:</strong> A fiery mutton curry made with red chilies and yogurt, a staple in Rajasthani cuisine.</li>
+              <li><strong>Safed Maas:</strong> A rich and creamy mutton curry made with yogurt, cream, and cashews, giving it a white appearance.</li>
+              <li><strong>Macchli Jaisamandi:</strong> Fish curry named after the Jaisamand Lake, featuring fish cooked with regional spices and herbs.</li>
+          </ul>
+      
+          <h2>Breads</h2>
+          <ul>
+              <li><strong>Missi Roti:</strong> Spiced gram flour flatbread.</li>
+              <li><strong>Bajra Roti:</strong> Millet flatbread, often served with ghee and jaggery.</li>
+              <li><strong>Tandoori Roti:</strong> Clay oven-baked flatbread.</li>
+          </ul>
+      
+          <h2>Sweets and Desserts</h2>
+          <ul>
+              <li><strong>Ghewar:</strong> A traditional Rajasthani sweet made from flour, soaked in sugar syrup, often topped with cream or nuts.</li>
+              <li><strong>Malpua:</strong> Sweet pancakes soaked in sugar syrup, sometimes served with rabri (thickened sweet milk).</li>
+              <li><strong>Mohanthal:</strong> A rich gram flour fudge flavored with cardamom and garnished with nuts.</li>
+              <li><strong>Rajasthani Rabri:</strong> Sweet, condensed milk dessert, flavored with cardamom and saffron.</li>
+          </ul>
+      
+          <h2>Snacks</h2>
+          <ul>
+              <li><strong>Pyaaz Kachori:</strong> Deep-fried pastry filled with a spicy onion mixture.</li>
+              <li><strong>Mirchi Vada:</strong> Spicy green chilies stuffed with a potato filling and fried in gram flour batter.</li>
+              <li><strong>Dhokla:</strong> A savory, steamed cake made from fermented rice and chickpea batter.</li>
+          </ul>
+      
+          <h2>Beverages</h2>
+          <ul>
+              <li><strong>Makhaniya Lassi:</strong> A rich yogurt-based drink, flavored with saffron and cardamom.</li>
+              <li><strong>Masala Chai:</strong> Spiced tea made with milk and a blend of aromatic spices.</li>
+              <li><strong>Thandai:</strong> A chilled almond-flavored milk beverage, often enjoyed during festivals.</li>
+          </ul>
+        
+      </div>
+    </div>
+  <!-- 
+    entry 3 -->
+    <div 
+  
+    <div class="w3-card-4 w3-margin w3-white">
+      <div class="w3-container">
+         <section class="package" id="package">
+             <div class="package-title">
+                 <h2>HOTELS AND ACCOMMODATION</h2>
+                 <h4>NOTE: Follow the rules and regulations of the Sri Venkateswara Temple, such as dress code, photography restrictions, and temple timings. </h4>
+             </div>
+             
+             <div class="package-content">
+                 <div class="text-block">
+                     <h3 >Travel by Season</h3>
+                 </div>
+       
+                 <a href="#package">
+                     <div class="box">
+                         <div class="image">
+                           <a href="https://www.makemytrip.com/hotels/hotel-details/?hotelId=200707271404078514&_uCurrency=INR&adg=145508710232&aid=646008566068&campaign_type=search&cid=EAIaIQobChMI88bPj5jOhgMVeB6DAx1rCADQEAAYASAAEgLWiPD_BwE&city=CTUDR&cmp=SEM%7CD%7CDH%7CG%7CDestination%7CDH_Destination_CTUDR_Udaipur%7CCTUDR_Best%7CRSA%7C&country=IN&device=c&filterData=USER_RATING%7C4&gad_source=1&gclid=EAIaIQobChMI88bPj5jOhgMVeB6DAx1rCADQEAAYASAAEgLWiPD_BwE&kw=udaipur%20best%20hotels&lat=24.59062&lng=73.68174&locusId=CTUDR&locusType=city&mf_campaign=%7BHARDCODE_CAMPAIGN_NAME%7D&mf_campaignid=19486082622&mf_medium=cpc&mf_source=google&pl=&rank=10&reference=hotel&regionNearByExp=3&roomStayQualifier=2e0e&searchText=Udaipur&type=city&mtkeys=-8450303443714856138">  <img src="https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/200707271404078514-713e747ac64111e99b7a0242ac110002.jpg?&output-quality=75&downsize=520:350&crop=520:350;4,0&output-format=jpg"alt="">
+                           </a>
+                           
+                         </div>
+                         <h6 style="color:black">HILLTOP PALACE - LAKE FACING HOTEL </h6>
+                     </div>
+                 </a>
+       
+                 <a href="">
+       
+                     <div class="box">
+                         <div class="image">
+                           <a href="https://www.makemytrip.com/hotels/hotel-details/?hotelId=202209201701532852&_uCurrency=INR&adg=145508710232&aid=646008566068&campaign_type=search&cid=EAIaIQobChMI88bPj5jOhgMVeB6DAx1rCADQEAAYASAAEgLWiPD_BwE&city=CTUDR&cmp=SEM%7CD%7CDH%7CG%7CDestination%7CDH_Destination_CTUDR_Udaipur%7CCTUDR_Best%7CRSA%7C&country=IN&device=c&filterData=USER_RATING%7C4&gad_source=1&gclid=EAIaIQobChMI88bPj5jOhgMVeB6DAx1rCADQEAAYASAAEgLWiPD_BwE&kw=udaipur%20best%20hotels&lat=24.54139&lng=73.70992&locusId=CTUDR&locusType=city&mf_campaign=%7BHARDCODE_CAMPAIGN_NAME%7D&mf_campaignid=19486082622&mf_medium=cpc&mf_source=google&pl=&rank=15&reference=hotel&regionNearByExp=3&roomStayQualifier=2e0e&searchText=Udaipur&type=city&mtkeys=-4770835185788327557"> <img src="https://r1imghtlak.mmtcdn.com/bf9117b69be211ed8a9e0a58a9feac02.png?&output-quality=75&downsize=520:350&crop=520:350;2,0&output-format=jpg" alt="">
+                           </a>
+                            
+                         </div>
+                         <h6 style="color:black">juSTa Ssatva Resort & Convention Centre</h6>
+                     </div>
+                 </a>
+       
+                 <a href="./package.html#9999">
+                     <div class="box">
+                         <div class="image">
+                           <a href="https://www.makemytrip.com/hotels/hotel-details/?hotelId=201912202034347174&_uCurrency=INR&adg=145508710232&aid=646008566068&campaign_type=search&cid=EAIaIQobChMI88bPj5jOhgMVeB6DAx1rCADQEAAYASAAEgLWiPD_BwE&city=CTUDR&cmp=SEM%7CD%7CDH%7CG%7CDestination%7CDH_Destination_CTUDR_Udaipur%7CCTUDR_Best%7CRSA%7C&country=IN&device=c&filterData=USER_RATING%7C4&gad_source=1&gclid=EAIaIQobChMI88bPj5jOhgMVeB6DAx1rCADQEAAYASAAEgLWiPD_BwE&kw=udaipur%20best%20hotels&lat=24.58032&lng=73.66745&locusId=CTUDR&locusType=city&mf_campaign=%7BHARDCODE_CAMPAIGN_NAME%7D&mf_campaignid=19486082622&mf_medium=cpc&mf_source=google&pl=&rank=18&reference=hotel&regionNearByExp=3&roomStayQualifier=2e0e&searchText=Udaipur&type=city&mtkeys=6502741011255207507"> <img src="https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201912202034347174-cdf83162c72511ee870c0a58a9feac02.jpg?&output-quality=75&downsize=520:350&crop=520:350;2,0&output-format=jpg" alt="">
+                           </a>
+                            
+                         </div>
+                         <h6 style="color:black">The Sierra - By The Lake</h6>
+                     </div>
+                 </a>
+       
+                 <a href="./package.html#30000">
+                     <div class="box">
+                         <div class="image">
+                           <a href="https://www.makemytrip.com/hotels/hotel-details/?hotelId=201711141454559376&_uCurrency=INR&adg=145508710232&aid=646008566068&campaign_type=search&cid=EAIaIQobChMI88bPj5jOhgMVeB6DAx1rCADQEAAYASAAEgLWiPD_BwE&city=CTUDR&cmp=SEM%7CD%7CDH%7CG%7CDestination%7CDH_Destination_CTUDR_Udaipur%7CCTUDR_Best%7CRSA%7C&country=IN&device=c&filterData=USER_RATING%7C4&gad_source=1&gclid=EAIaIQobChMI88bPj5jOhgMVeB6DAx1rCADQEAAYASAAEgLWiPD_BwE&kw=udaipur%20best%20hotels&lat=24.59493&lng=73.69227&locusId=CTUDR&locusType=city&mf_campaign=%7BHARDCODE_CAMPAIGN_NAME%7D&mf_campaignid=19486082622&mf_medium=cpc&mf_source=google&pl=&rank=22&reference=hotel&regionNearByExp=3&roomStayQualifier=2e0e&searchText=Udaipur&type=city&viewType=BUDGET&mtkeys=-7845323034925396987"> <img src="https://r1imghtlak.mmtcdn.com/70efb8b2f53211e7b91102155a238f12.jfif?&output-quality=75&downsize=520:350&crop=520:350;2,0&output-format=jpg" alt="">
+                           </a>
+                            
+                         </div>
+                         <h6 style="color:black">Hotel Udai Median</h6>
+                     </div>
+                 </a>
+  
+                 <a href="./package.html#30000">
+                     <div class="box">
+                         <div class="image">
+                           <a href="https://www.makemytrip.com/hotels/hotel-details/?hotelId=202305041228483574&_uCurrency=INR&adg=145508710232&aid=646008566068&campaign_type=search&cid=EAIaIQobChMI88bPj5jOhgMVeB6DAx1rCADQEAAYASAAEgLWiPD_BwE&city=CTUDR&cmp=SEM%7CD%7CDH%7CG%7CDestination%7CDH_Destination_CTUDR_Udaipur%7CCTUDR_Best%7CRSA%7C&country=IN&device=c&filterData=USER_RATING%7C4&gad_source=1&gclid=EAIaIQobChMI88bPj5jOhgMVeB6DAx1rCADQEAAYASAAEgLWiPD_BwE&kw=udaipur%20best%20hotels&lat=24.58271&lng=73.68127&locusId=CTUDR&locusType=city&mf_campaign=%7BHARDCODE_CAMPAIGN_NAME%7D&mf_campaignid=19486082622&mf_medium=cpc&mf_source=google&pl=&rank=29&reference=hotel&regionNearByExp=3&roomStayQualifier=2e0e&searchText=Udaipur&type=city&mtkeys=7905075089012165403"> <img src="https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/202305041228483574-e6235da1-2cfb-4660-b01a-5f609e379aaf.jpg?&output-quality=75&downsize=520:350&crop=520:350;2,0&output-format=jpg" alt="">
+                           </a>
+                            
+                         </div>
+                         <h6 style="color:black">Hide In Udaipur</h6>
+                     </div>
+                 </a>
+       
+       
+             </div>
+         </section>
+       <h6>Keep your personal belongings secure and avoid carrying valuables to crowded areas.
+     </h6>
+     </div>
+  
+     
+   </div>
+   <hr>
+   <div class="w3-card-4 w3-margin w3-white">
+      <img src="https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRB2ZmO7UkCzFnuo9eM_oFkBsBR0kJm4UEK1pd-tsf6Y9D7QM3bUAMop6XG9r7CrGLGkDeEzNikEA51320rYQt9ENXTg_Auc42vNwQQtQ" alt="" style="width:100%">
+        <div class="w3-container">
+          <h1>Local Traditions of Udaipur</h1>
+        </div>
+    
+        <div class="w3-container">
+          <h2>Festivals and Celebrations</h2>
+      <ul>
+          <li><strong>Mewar Festival:</strong> Celebrated to welcome the arrival of spring, featuring traditional dance, music, processions, and fireworks.</li>
+          <li><strong>Diwali:</strong> The festival of lights celebrated with illuminated homes, fireworks, and traditional sweets.</li>
+          <li><strong>Holi:</strong> Marked by vibrant celebrations, including traditional folk music, dance, and colors.</li>
+          <li><strong>Teej:</strong> Celebrated by women in honor of the goddess Parvati, featuring fasting, traditional songs, dances, and swings adorned with flowers.</li>
+      </ul>
+  
+      <h2>Traditional Arts and Crafts</h2>
+      <ul>
+          <li><strong>Miniature Paintings:</strong> Depict intricate scenes from Rajputana history and mythology with fine brushwork and attention to detail.</li>
+          <li><strong>Pichwai Paintings:</strong> Devotional paintings dedicated to Lord Krishna, characterized by vibrant colors and intricate designs.</li>
+          <li><strong>Pottery:</strong> Crafted pots, vases, and items decorated with intricate patterns and motifs.</li>
+      </ul>
+  
+      <h2>Dance and Music</h2>
+      <ul>
+          <li><strong>Ghoomar:</strong> Traditional folk dance performed by women, characterized by graceful movements and colorful attire.</li>
+          <li><strong>Kalbeliya:</strong> Dance form of the Kalbeliya tribe, known for its energetic and sensuous moves.</li>
+          <li><strong>Bhavai:</strong> Folk dance where women balance several pots on their heads while performing intricate dance moves.</li>
+      </ul>
+  
+      <h2>Customs and Rituals</h2>
+      <ul>
+          <li><strong>Puja and Aarti:</strong> Daily rituals at temples, especially at the Jagdish Temple and City Palace, including elaborate aarti ceremonies.</li>
+          <li><strong>Turban Tying:</strong> Significant tradition with the style and color often signifying the wearer's social status and region.</li>
+          <li><strong>Rajput Hospitality:</strong> Warm and generous hospitality, with guests welcomed with garlands and traditional sweets.</li>
+      </ul>
+  
+      <h2>Cuisine</h2>
+      <ul>
+          <li><strong>Rajasthani Thali:</strong> Traditional meal featuring a variety of dishes such as dal baati churma, gatte ki sabzi, and bajra roti.</li>
+          <li><strong>Sweet Dishes:</strong> Ghewar, malpua, and mohanthal are integral parts of Udaipur's culinary traditions.</li>
+      </ul>
+  
+      <h2>Handicrafts and Shopping</h2>
+      <ul>
+          <li><strong>Traditional Jewelry:</strong> Intricate silver and gold jewelry adorned with precious and semi-precious stones.</li>
+          <li><strong>Textiles:</strong> Hand-printed textiles including bandhani and block-printed fabrics used to make traditional attire.</li>
+      </ul>
+          
+        </div>
+      </div>
+  <!-- END BLOG ENTRIES -->
+  </div>
+   
+  
+  
+  <!-- Introduction menu -->
+  <div class="w3-col l4">
+      <!-- About Card -->
+      <div class="w3-card w3-margin w3-margin-top">
+    <a href="https://www.google.com/maps/place/Udaipur,+Rajasthan/@24.6082638,73.6224705,12z/data=!3m1!4b1!4m6!3m5!1s0x3967e56550a14411:0xdbd8c28455b868b0!8m2!3d24.585445!4d73.712479!16zL20vMGJfa2Z5?entry=ttu"><img  src="https://www.google.com/maps/vt/data=8K3uIVWUymfSITA9XjxzjtTW3vEQFD_y6RjqLtLI-7hYolw_tvGsRFxM6FKpJLtH4yE4gJJIpbAvQwp1eyhlobF4jZl-A7Cvg3b5UYZGl9YMzAfzuzekQpk6RVYr5CJwRA5B-3GENMxB8Ru8duxtVct1Z_BkXJK701XQ2NGKettt43S9SImT0QzOCORq_pOASZBigxks3B1N749ZX4SrmANs7U1vdES2oe3dh353cS3Abt8Lkjn10EmUt49ai_1DsKFHdeR3cEbucwvL3wIoQBu4m-yMOGREdxZs" style="width:100%"></a>
+        <div class="w3-container w3-white">
+          <h3>Travel Options to Udaipur</h3>
+  
+          <h2>By Air:</h2>
+      <ul>
+          <li><strong>Airlines Operating to Udaipur Airport (UDR) :</strong>
+              <ul>
+                  <li><strong>From Delhi:</strong>
+                      <ul>
+                          <li>Air India</li>
+                          <li>IndiGo</li>
+                          <li>SpiceJet</li>
+                      </ul>
+                  </li>
+                  <li><strong>From Mumbai:</strong>
+                      <ul>
+                          <li>Air India</li>
+                          <li>SpiceJet</li>
+                      </ul>
+                  </li>
+                  <li><strong>From Jaipur:</strong>
+                      <ul>
+                          <li>SpiceJet</li>
+                      </ul>
+                  </li>
+              </ul>
+          </li>
+      </ul>
+  
+      <h2>By Train:</h2>
+      <ul>
+          <li><strong>Trains to Udaipur Railway Station (UDZ):</strong>
+              <ul>
+                  <li><strong>From Delhi:</strong>
+                      <ul>
+                          <li>Mewar Express</li>
+                          <li>Chetak Express</li>
+                      </ul>
+                  </li>
+                  <li><strong>From Mumbai:</strong>
+                      <ul>
+                          <li>Mewar Express</li>
+                          <li>Bandra-Udaipur SF Express</li>
+                      </ul>
+                  </li>
+                  <li><strong>From Jaipur:</strong>
+                      <ul>
+                          <li>Udaipur City Jaipur SF Express</li>
+                          <li>Mewar SF Express</li>
+                      </ul>
+                  </li>
+              </ul>
+          </li>
+      </ul>
+  
+      <h2>By Bus:</h2>
+      <ul>
+          <li><strong>Bus Operators to Udaipur:</strong>
+              <ul>
+                  <li><strong>From Delhi:</strong>
+                      <ul>
+                          <li>Rajasthan State Road Transport Corporation (RSRTC)</li>
+                          <li>Volvo Multi-Axle Semi-Sleeper</li>
+                      </ul>
+                  </li>
+                  <li><strong>From Mumbai:</strong>
+                      <ul>
+                          <li>Gujarat State Road Transport Corporation (GSRTC)</li>
+                          <li>Neeta Travels</li>
+                      </ul>
+                  </li>
+                  <li><strong>From Jaipur:</strong>
+                      <ul>
+                          <li>Rajasthan State Road Transport Corporation (RSRTC)</li>
+                          <li>Shrinath Travels</li>
+                      </ul>
+                  </li>
+              </ul>
+          </li>
+      </ul>
+  
+      <h2>By Car:</h2>
+      <ul>
+          <li><strong>Routes and Highways:</strong>
+              <ul>
+                  <li><strong>From Delhi:</strong> Via NH48</li>
+                  <li><strong>From Mumbai:</strong> Via NH48 and NH27</li>
+                  <li><strong>From Jaipur:</strong> Via NH48</li>
+              </ul>
+          </li>
+          <li><strong>Car Rentals and Taxi Services:</strong>
+              <ul>
+                  <li>Zoomcar</li>
+                  <li>Ola Outstation</li>
+                  <li>Uber Intercity</li>
+                  <li>Avis Car Rental</li>
+                  <li>Myles Cars</li>
+              </ul>
+          </li>
+      </ul>
+  
+      <h2>By Tour Package:</h2>
+      <ul>
+          <li><strong>Tour Operators Offering Packages to Udaipur:</strong>
+              <ul>
+                  <li>MakeMyTrip</li>
+                  <li>Yatra.com</li>
+                  <li>SOTC</li>
+                  <li>Thomas Cook</li>
+                  <li>Cox & Kings</li>
+              </ul>
+          </li>
+      </ul>
+        </div>
+      </div><hr>
+    <!-- Posts -->
+    <div class="w3-card w3-margin">
+      <div class="w3-container w3-padding">
+      </div>
+      <h1>Must-Visit Places in Udaipur</h1>
+      <ul>
+          <h2>1. City Palace</h2>
+      <p>A majestic palace complex situated on the banks of Lake Pichola. It boasts intricate architecture, beautiful courtyards, museums, and stunning views of the lake and the city.</p>
+  
+      <h2>2. Lake Pichola</h2>
+      <p>A picturesque artificial lake surrounded by hills, palaces, temples, and ghats. Visitors can enjoy boat rides, witness the sunset, and explore attractions like Jag Mandir and Jag Niwas (Lake Palace).</p>
+  
+      <h2>3. Jag Mandir</h2>
+      <p>An exquisite palace located on an island in Lake Pichola. It offers splendid architecture, lush gardens, and panoramic views of the lake and the surrounding mountains.</p>
+  
+      <h2>4. Saheliyon ki Bari (Garden of the Maidens)</h2>
+      <p>A serene garden adorned with fountains, lotus pools, marble pavilions, and lush greenery. It was built for the royal ladies and offers a peaceful retreat from the bustling city.</p>
+  
+      <h2>5. Jagdish Temple</h2>
+      <p>A 17th-century Hindu temple dedicated to Lord Vishnu. It features intricate carvings, ornate ceilings, and a towering spire, making it a significant religious and architectural landmark.</p>
+  
+      <h2>6. Fateh Sagar Lake</h2>
+      <p>Another beautiful lake in Udaipur, known for its scenic charm and recreational activities like boating and camel rides. It offers stunning views of the surrounding hills and the city.</p>
+  
+      <h2>7. Sajjangarh Palace (Monsoon Palace)</h2>
+      <p>Perched atop a hill overlooking the city, this palace offers breathtaking views of Udaipur and its surroundings. It was built by Maharana Sajjan Singh in the 19th century as a monsoon retreat.</p>
+  
+      <h2>8. Shilpgram</h2>
+      <p>A rural arts and crafts complex showcasing the diverse culture and traditions of Rajasthan. Visitors can explore traditional huts, watch artisans at work, and shop for handicrafts, textiles, and souvenirs.</p>
+  
+      <h2>9. Vintage Car Museum</h2>
+      <p>Housing a remarkable collection of vintage cars, including Rolls Royce, Cadillac, and Mercedes models used by the erstwhile royalty of Udaipur. It offers a glimpse into the opulent lifestyle of the Maharajas.</p>
+  
+      <h2>10. Bagore ki Haveli</h2>
+      <p>A historic mansion converted into a museum, featuring artifacts, costumes, paintings, and displays depicting the cultural heritage of Rajasthan. It also hosts traditional Rajasthani folk performances in the evenings.
+    </div>
+    <hr> 
+  <!-- END Introduction Menu -->
+  </div>
+  
+  <!-- END GRID -->
+  </div><br>
+  
+  
+  <!-- END w3-content -->
+  </div>
+  
+
+</body>
+</html>
